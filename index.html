@@ -23,9 +23,8 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            margin: 0 ;
+            padding: 0;
             color: #333;
         }
 
@@ -40,6 +39,11 @@
         @media (max-width: 768px){
         .mobile-menu-btn{display:block;}
         .nav-menu{display:none;position:absolute;top:100%;left:0;right:0;background:#1a237e;padding:1rem;flex-direction:column;gap:1rem;}
+        }
+        .main-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
         }
         
         h1, h2 {
@@ -56,6 +60,23 @@
             padding: 20px;
             border-radius: 8px;
             margin: 20px 0;
+        }
+        /* Footer Styles */
+        .footer {
+            background: #1a237e;
+            color: white;
+            padding: 3rem 0;
+            margin-top: 4rem;
+            width: 100%; /* Ensure full width */
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
         }
     </style>
 </head>
@@ -134,6 +155,28 @@
         <p>Ready to start playing? Jump into the colorful world of Block Blast Unblocked and see how far you can go! No downloads, no restrictions – just pure puzzle-solving fun at your fingertips.</p>
     </article>
     </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We provide the best collection of unblocked games for free online gaming entertainment. Our games are regularly updated to ensure fresh content for our players.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Stay updated with our latest games and features!</p>
+                <div class="social-links">
+                    <a href="#twitter">Twitter</a>
+                    <a href="#facebook">Facebook</a>
+                    <a href="#discord">Discord</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Unblocked Games. All rights reserved.</p>
+        </div>
+    </footer>
     <!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BMSbD8RIupKDAZJt1ESd5FQBNl37wS4vYs5_zSgaVmVqrnGVLSDh0Un8IML7BC9zCqWicRQ7ys-PsrXBNzayiY8' });</script><!-- end webpushr code -->
 </body>
 </html>
